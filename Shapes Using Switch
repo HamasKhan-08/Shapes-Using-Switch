@@ -1,0 +1,28 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int sides;
+    cout << " How many sides does your shape has " << endl;
+    cin >> sides;
+    switch (sides){
+           case 3:
+           cout << " This is a triangle " << endl;
+           break;
+           case 4:
+           cout << " This is a parallelogram " << endl;
+           break;
+           case 5:
+           cout << " This is a pentagon " << endl;
+           break;
+           case 6:
+           cout << " This is a hexagon " << endl;
+           break;
+           default:
+           cout << " Incorrect sides entered " << endl;
+    
+    }
+    
+}
